@@ -37,7 +37,6 @@ DFS explores a maze by:
 ### Code Structure
 
 ```
-maze_solver/
 ├── maze.py           # Maze representation and utilities
 ├── dfs_solver.py     # DFS algorithm implementation
 ├── example_mazes.py  # Pre-defined test mazes
@@ -76,16 +75,16 @@ When you run the program, you'll see:
 ```
 Original Maze:
 S . . . .
-█ █ █ █ .
+# # # # .
 . . . . .
-. █ █ █ █
+. # # # #
 . . . . E
 
 Maze with Solution Path (marked with *):
 S * * * .
-█ █ █ █ *
+# # # # *
 . . . . *
-. █ █ █ █
+. # # # #
 . . . . E
 
 Statistics:

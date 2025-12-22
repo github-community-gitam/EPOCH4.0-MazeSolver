@@ -100,7 +100,7 @@ class Maze:
                 if (i, j) in path_set and self.grid[i][j] not in ['S', 'E']:
                     print('*', end=' ')  # Mark path with *
                 elif self.grid[i][j] == 1:
-                    print('█', end=' ')  # Wall
+                    print('#', end=' ')  # Wall
                 elif self.grid[i][j] == 'S':
                     print('S', end=' ')  # Start
                 elif self.grid[i][j] == 'E':

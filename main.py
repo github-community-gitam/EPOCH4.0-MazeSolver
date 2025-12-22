@@ -33,7 +33,7 @@ def solve_and_display(maze_grid, maze_name):
     
     # Display results
     if path:
-        print(f"\n✓ Solution found!")
+        print(f"\n[SUCCESS] Solution found!")
         print(f"\nMaze with Solution Path (marked with *):")
         maze.display(path)
         
@@ -44,7 +44,7 @@ def solve_and_display(maze_grid, maze_name):
         print(f"  - Nodes visited: {stats['visited_nodes']}")
         print(f"  - Efficiency: {stats['efficiency']:.2%}")
     else:
-        print(f"\n✗ No solution exists for this maze!")
+        print(f"\n[NO SOLUTION] No solution exists for this maze!")
 
 
 def main():
@@ -59,7 +59,7 @@ def main():
     print("\nLegend:")
     print("  S = Start position")
     print("  E = End/Goal position")
-    print("  █ = Wall (impassable)")
+    print("  # = Wall (impassable)")
     print("  . = Open path")
     print("  * = Solution path")
     
