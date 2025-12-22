@@ -96,6 +96,12 @@ Statistics:
 
 ## How to Contribute
 
+### Algorithm Note
+
+
+**Note:** Depth-First Search (DFS) does **not** guarantee the shortest path.
+For shortest-path solutions, consider **Breadth-First Search (BFS)** or **Dijkstra’s algorithm**.
+
 We welcome contributions! Here are some ideas:
 
 ### For Beginners:
